@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+.web-name{
+    color: white;
+    font-family: 'Quicksand';
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.menu-list{
+    font-family: 'Quicksand';
+    text-transform: uppercase;
+    height: fit-content;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 15px 15px 15px 15px;
+}
+.menu-list:hover{
+    background-color: rgba(255, 255, 255, 0.111);
+}
+.dashboard-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .dashboard-card{
+    height: 150px;
+    width: 300px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px rgba(187, 187, 187, 0.111);
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+  }
+  .dashboard-cardtext1, .dashboard-cardtext2{
+    font-family: 'Inter';
+    margin-left: 20px;
+    text-align: left;
+  }
+  .dashboard-cardtext1{
+    color: rgb(40, 40, 40);
+}
+.dashboard-cardtext2{
+    color: rgb(96, 96, 96);
+  }
+
+
+  /* table */
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .table {
+    width: 80%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: none;
+    text-align: left;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #1c3b70;
+    color: #ffffff;
+  }
+  .table tbody {
+    background-color: #ffffff;
+  }
+  .table td{
+    box-shadow: 0px 2px 0px 0px #e6e6e6;
+  }
+  .table tbody tr:hover {
+    background-color: #efefef;
+  }
+  .table button:hover {
+    transform: scale(1.1);
+  }
+  .admin-input-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .admin-input{
+    border: transparent;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Calibri';
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px rgba(187, 187, 187, 0.111);
+  }
+  .admin-input-head{
+    color: #1c3b70;
+    font-size: 35px;
+    font-family: 'Overpass';
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .admin-label{
+    font-family: 'Overpass';
+    color: #1c3b70;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    font-weight: 600;
+  }
+  .admin-button-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .admin-input-button{
+    background-color: #1c3b70;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 15px;
+  }
+  .admin-input-button:hover{
+    background-color: #13294f;
+    transform: scale(1.02);
+
+  }
+  /* .admin-input-box{
+
+  } */
